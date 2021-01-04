@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Movie Ratings</h1>
+    <form>
+        <label for="movie">Movie Title:</label>
+        <input type="text" name="movie" id="movie" minlength="2"/> <br/>
+        <label for="rating">Rating:</label>
+        <input type="number" min="0" max="10" name="rating" id="rating"/> <br/>
+        <input type="submit"/>
+    </form>
+
+    <ul id="movie-list"></ul>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
